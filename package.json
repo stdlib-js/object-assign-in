@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/object-assign-in",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Copy enumerable own and inherited properties from one or more source objects to a target object.",
   "license": "Apache-2.0",
   "author": {
