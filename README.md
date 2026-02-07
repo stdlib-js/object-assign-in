@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-assignIn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign-in@umd/browser.js' )
+assignIn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign-in@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var assignIn = require( 'path/to/vendor/umd/object-assign-in/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/object-assign-in@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/object-assign-in@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -131,7 +131,7 @@ var bool = ( z === x );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/object-assign-in@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/object-assign-in@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
