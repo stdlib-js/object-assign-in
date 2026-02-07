@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/object-assign-in",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Copy enumerable own and inherited properties from one or more source objects to a target object.",
   "license": "Apache-2.0",
   "author": {
@@ -37,15 +37,15 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/object-ctor": "^0.2.1",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/object-ctor": "^0.2.2",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/utils-enumerable-properties-in": "^0.2.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/assert-has-symbol-support": "^0.2.2",
-    "@stdlib/assert-is-object": "^0.2.2",
-    "@stdlib/symbol-ctor": "^0.2.2",
+    "@stdlib/assert-has-symbol-support": "^0.2.3",
+    "@stdlib/assert-is-object": "^0.2.3",
+    "@stdlib/symbol-ctor": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
